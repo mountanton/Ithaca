@@ -1,0 +1,563 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml> a void:Dataset .
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομείο_Χανίων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομείο Χανίων"@gr ;
+geo:lat "35.4787"^^xsd:double ;
+geo:long "24.0174"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Θεραπευτήριο_Ψυχικών_Παθήσεων_Χανίων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Θεραπευτήριο Ψυχικών Παθήσεων Χανίων"@gr ;
+geo:lat "35.4787"^^xsd:double ;
+geo:long "24.0174"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αρωνίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αρωνίου"@gr ;
+geo:lat "35.51684"^^xsd:double ;
+geo:long "24.11282"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Κοντοπούλων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Κοντοπούλων"@gr ;
+geo:lat "35.4500"^^xsd:double ;
+geo:long "24.0524"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αρμένων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αρμένων"@gr ;
+geo:lat "35.43004"^^xsd:double ;
+geo:long "24.15808"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Κισσάμου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Κισσάμου"@gr ;
+geo:lat "35.4948"^^xsd:double ;
+geo:long "23.6549"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Νέας_Κυδωνίας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Νέας Κυδωνίας"@gr ;
+geo:lat "35.5002"^^xsd:double ;
+geo:long "23.9516"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Γερανίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Γερανίου"@gr ;
+geo:lat "35.5179"^^xsd:double ;
+geo:long "23.8748"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μάλεμε> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μάλεμε"@gr ;
+geo:lat "35.5232"^^xsd:double ;
+geo:long "23.8484"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ταυρωνίτη> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ταυρωνίτη"@gr ;
+geo:lat "35.5243"^^xsd:double ;
+geo:long "23.8166"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Κολυμβαρίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Κολυμβαρίου"@gr ;
+geo:lat "35.5439"^^xsd:double ;
+geo:long "23.7800"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Σπηλιάς> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Σπηλιάς"@gr ;
+geo:lat "35.5153"^^xsd:double ;
+geo:long "23.7802"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Καλυδωνίας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Καλυδωνίας"@gr ;
+geo:lat "35.5236"^^xsd:double ;
+geo:long "23.7510"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Καλουδιανών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Καλουδιανών"@gr ;
+geo:lat "35.4870"^^xsd:double ;
+geo:long "23.6894"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Πλατάνου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Πλατάνου"@gr ;
+geo:lat "35.4696"^^xsd:double ;
+geo:long "23.6005"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Καλαθενών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Καλαθενών"@gr ;
+geo:lat "35.4349"^^xsd:double ;
+geo:long "23.6718"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Δελιανών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Δελιανών"@gr ;
+geo:lat "35.4496"^^xsd:double ;
+geo:long "23.7394"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αλικιανού> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αλικιανού"@gr ;
+geo:lat "35.4541"^^xsd:double ;
+geo:long "23.9119"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Κανδάνου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Κανδάνου"@gr ;
+geo:lat "35.3291"^^xsd:double ;
+geo:long "23.744"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Παλαιόχωρας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Παλαιόχωρας"@gr ;
+geo:lat "35.2307"^^xsd:double ;
+geo:long "23.6815"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Παλαιών_Ρουμάτων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Παλαιών Ρουμάτων"@gr ;
+geo:lat "35.4003"^^xsd:double ;
+geo:long "23.7791"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Κουντούρας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Κουντούρας"@gr ;
+geo:lat "35.2366"^^xsd:double ;
+geo:long "23.6767"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Βάμου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Βάμου"@gr ;
+geo:lat "35.4107"^^xsd:double ;
+geo:long "24.1988"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Φρε> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Φρε"@gr ;
+geo:lat "35.3827"^^xsd:double ;
+geo:long "24.1446"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Βρυσσών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Βρυσσών"@gr ;
+geo:lat "35.3776"^^xsd:double ;
+geo:long "24.2007"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ανώπολης> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ανώπολης"@gr ;
+geo:lat "35.2186"^^xsd:double ;
+geo:long "24.0861"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Χώρας_Σφακίων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Χώρας Σφακίων"@gr ;
+geo:lat "35.2010"^^xsd:double ;
+geo:long "24.1374"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Κουρνά> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Κουρνά"@gr ;
+geo:lat "35.3134"^^xsd:double ;
+geo:long "24.2966"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Επισκοπής> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Επισκοπής"@gr ;
+geo:lat "35.3301"^^xsd:double ;
+geo:long "24.3358"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αργυρούπολης> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αργυρούπολης"@gr ;
+geo:lat "35.2872"^^xsd:double ;
+geo:long "24.3355"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομείο_Ρεθύμνου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομείο Ρεθύμνου"@gr ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Rethymno> ;
+geo:lat "35.3648"^^xsd:double ;
+geo:long "24.4711"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Περάματος> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Περάματος"@gr ;
+geo:lat "35.3714"^^xsd:double ;
+geo:long "24.6999"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Σπηλίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Σπηλίου"@gr ;
+geo:lat "35.2195"^^xsd:double ;
+geo:long "24.5344"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Αγίας_φωτεινής> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Αγίας φωτεινής"@gr ;
+geo:lat "35.2544"^^xsd:double ;
+geo:long "24.6336"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Ανωγείων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Ανωγείων"@gr ;
+geo:lat "35.2921"^^xsd:double ;
+geo:long "24.881"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Μοιρών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Μοιρών"@gr ;
+geo:lat "35.0537"^^xsd:double ;
+geo:long "24.8743"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Πανεπιστημιακό_Γενικό_Νοσοκομείο_Ηρακλείου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Πανεπιστημιακό Γενικό Νοσοκομείο Ηρακλείου"@gr ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Herakleion> ;
+geo:lat "35.2734"^^xsd:double ;
+geo:long "25.0706"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομέιο_Ηρακλείου_Βενιζέλειο-Πανάνειο> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομέιο Ηρακλείου Βενιζέλειο-Πανάνειο"@gr ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Herakleion> ;
+geo:lat "35.3065"^^xsd:double ;
+geo:long "25.1577"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Καστελίου_Πεδιάδος> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Καστελίου Πεδιάδος"@gr ;
+geo:lat "35.2088"^^xsd:double ;
+geo:long "25.3379"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Αγίας_Βαρβάρας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Αγίας Βαρβάρας"@gr ;
+geo:lat "35.137"^^xsd:double ;
+geo:long "24.997"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Χάρακα> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Χάρακα"@gr ;
+geo:lat "35.0117"^^xsd:double ;
+geo:long "25.1194"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Αρκαλοχωρίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Αρκαλοχωρίου"@gr ;
+geo:lat "35.1470"^^xsd:double ;
+geo:long "25.2653"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομέιο_Αγίου_Νικολάου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομέιο Αγίου Νικολάου"@gr ;
+geo:lat "35.1898"^^xsd:double ;
+geo:long "25.7138"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομείο-Κέντρο_υγείας_Νεαπόλεως> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομείο-Κέντρο υγείας Νεαπόλεως"@gr ;
+geo:lat "35.2566"^^xsd:double ;
+geo:long "25.6068"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Τζερμιάδο> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Τζερμιάδο"@gr ;
+geo:lat "35.1990"^^xsd:double ;
+geo:long "25.4885"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Κέντρο_Υγείας_Άνω_Βιάννου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Κέντρο Υγείας Άνω Βιάννου"@gr ;
+geo:lat "35.0540"^^xsd:double ;
+geo:long "25.4102"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομείο-Κέντρο_Υγείας_Ιεράπετρας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομείο-Κέντρο Υγείας Ιεράπετρας"@gr ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Lasithi> ;
+geo:lat "35.0106"^^xsd:double ;
+geo:long "25.7417"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Γενικό_Νοσοκομείο-Κέντρο_Υγείας_Σητείας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Γενικό Νοσοκομείο-Κέντρο Υγείας Σητείας"@gr ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Lasithi> ;
+geo:lat "35.2080"^^xsd:double ;
+geo:long "26.105"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ρουστίκων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ρουστίκων"@gr ;
+geo:lat "35.2870"^^xsd:double ;
+geo:long "24.3749"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αρμένων_Ρεθύμνου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αρμένων Ρεθύμνου"@gr ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Rethymno> ;
+geo:lat "35.2870"^^xsd:double ;
+geo:long "24.3749"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αγκουσελιανών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αγκουσελιανών"@gr ;
+geo:lat "35.2396"^^xsd:double ;
+geo:long "24.4363"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Πρασσιών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Πρασσιών"@gr ;
+geo:lat "35.3202"^^xsd:double ;
+geo:long "24.5325"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Πηγής> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Πηγής"@gr ;
+geo:lat "35.3601"^^xsd:double ;
+geo:long "24.5723"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μέρωνα> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μέρωνα"@gr ;
+geo:lat "35.2342"^^xsd:double ;
+geo:long "24.6293"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Πανόρμου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Πανόρμου"@gr ;
+geo:lat "35.2342"^^xsd:double ;
+geo:long "24.6293"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μαργαριτών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μαργαριτών"@gr ;
+geo:lat "35.3395"^^xsd:double ;
+geo:long "24.6865"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Φουρφουρά> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Φουρφουρά"@gr ;
+geo:lat "35.2118"^^xsd:double ;
+geo:long "24.7127"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Νιθαύρεως> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Νιθαύρεως"@gr ;
+geo:lat "35.1725"^^xsd:double ;
+geo:long "24.7337"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μελιδονίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μελιδονίου"@gr ;
+geo:lat "35.3787"^^xsd:double ;
+geo:long "24.7380"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Χουμερίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Χουμερίου"@gr ;
+geo:lat "35.3458"^^xsd:double ;
+geo:long "24.7314"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Γαράζου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Γαράζου"@gr ;
+geo:lat "35.3450"^^xsd:double ;
+geo:long "24.7895"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Λιβαδίων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Λιβαδίων"@gr ;
+geo:lat "35.3072"^^xsd:double ;
+geo:long "24.8083"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ζωνιανών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ζωνιανών"@gr ;
+geo:lat "35.2955"^^xsd:double ;
+geo:long "24.8324"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Δροσιάς> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Δροσιάς"@gr ;
+geo:lat "35.3445"^^xsd:double ;
+geo:long "24.8713"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ακουμιών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ακουμιών"@gr ;
+geo:lat "35.1650"^^xsd:double ;
+geo:long "24.5831"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μελάμπων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μελάμπων"@gr ;
+geo:lat "35.1273"^^xsd:double ;
+geo:long "24.6535"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αγίας_Γαλήνης> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αγίας Γαλήνης"@gr ;
+geo:lat "35.0974"^^xsd:double ;
+geo:long "24.6875"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Γρηγοριάς> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Γρηγοριάς"@gr ;
+geo:lat "35.1325"^^xsd:double ;
+geo:long "24.8116"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Τυμπακίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Τυμπακίου"@gr ;
+geo:lat "35.0722"^^xsd:double ;
+geo:long "24.7707"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ζαρού> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ζαρού"@gr ;
+geo:lat "35.1317"^^xsd:double ;
+geo:long "24.907"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μαράθου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μαράθου"@gr ;
+geo:lat "35.3477"^^xsd:double ;
+geo:long "24.9723"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ροδιάς> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ροδιάς"@gr ;
+geo:lat "35.3653"^^xsd:double ;
+geo:long "25.0206"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Γωνιών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Γωνιών"@gr ;
+geo:lat "35.2964"^^xsd:double ;
+geo:long "24.9293"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Τυλίσσου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Τυλίσσου"@gr ;
+geo:lat "35.2966"^^xsd:double ;
+geo:long "25.0163"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Κρουσσώνα> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Κρουσσώνα"@gr ;
+geo:lat "35.23079"^^xsd:double ;
+geo:long "24.98340"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Δαφνών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Δαφνών"@gr ;
+geo:lat "35.2170"^^xsd:double ;
+geo:long "25.0516"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Άνω_Αρχανών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Άνω Αρχανών"@gr ;
+geo:lat "35.2370"^^xsd:double ;
+geo:long "25.1597"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Θραψανού> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Θραψανού"@gr ;
+geo:lat "35.1881"^^xsd:double ;
+geo:long "25.2822"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Καρυδίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Καρυδίου"@gr ;
+geo:lat "35.1338"^^xsd:double ;
+geo:long "26.1713"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Χανδρά> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Χανδρά"@gr ;
+geo:lat "35.0821"^^xsd:double ;
+geo:long "26.0998"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ζάκρου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ζάκρου"@gr ;
+geo:lat "35.1132"^^xsd:double ;
+geo:long "26.2195"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Ελούντας> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Ελούντας"@gr ;
+geo:lat "35.2619"^^xsd:double ;
+geo:long "25.7218"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μαλίων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μαλίων"@gr ;
+geo:lat "35.2842"^^xsd:double ;
+geo:long "25.4621"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Παναγιάς> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Παναγιάς"@gr ;
+geo:lat "35.1195"^^xsd:double ;
+geo:long "25.3420"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Πύργου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Πύργου"@gr ;
+geo:lat "35.0076"^^xsd:double ;
+geo:long "25.1546"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Αγίων_Δέκα> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Αγίων Δέκα"@gr ;
+geo:lat "35.0591"^^xsd:double ;
+geo:long "24.9604"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Βασιλικών_Ανωγείων> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Βασιλικών Ανωγείων"@gr ;
+geo:lat "35.0095"^^xsd:double ;
+geo:long "24.9695"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μιαμούς> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μιαμούς"@gr ;
+geo:lat "34.9718"^^xsd:double ;
+geo:long "24.9367"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μεσοχωρίου> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μεσοχωρίου"@gr ;
+geo:lat "35.0156"^^xsd:double ;
+geo:long "25.2091"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Μαλλών> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Μαλλών"@gr ;
+geo:lat "35.0810"^^xsd:double ;
+geo:long "25.5858"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Health_Service_Περιφερειακό_Ιατρείο_Άρβης> a <http://www.homeropendata.com/ontologies/homer.owl#Health_Service> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Health_Service.xml>;
+rdfs:label "Περιφερειακό Ιατρείο Άρβης"@gr ;
+geo:lat "34.9936"^^xsd:double ;
+geo:long "25.4557"^^xsd:double ;
+.

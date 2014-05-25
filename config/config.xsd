@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+<xs:element name="ithaca">
+        <xs:complexType>
+            <xs:sequence>
+               <xs:element ref="virtuoso"></xs:element>
+               <xs:element ref="actions"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+    <xs:element name="virtuoso">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="host"  type="http"/>
+                <xs:element name="port" type="xs:integer" />
+                <xs:element name="username" type="xs:string" />
+                <xs:element name="password"  type="xs:string"/>
+                <xs:element name="graph"  type="http"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+
+    <xs:element name="actions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="downloadSources" type="boolean"/>
+                <xs:element name="downloadQuery" type="xs:string"/>
+				<xs:element name="downloadFileName" type="xs:string"/>
+				<xs:element name="triplifyCSV" type="boolean"/>
+                <xs:element name="triplifyXML" type="boolean"/>
+                <xs:element name="triplifyMetadataCSV" type="boolean"/>
+				<xs:element name="triplifyMetadataXML" type="boolean"/>
+				<xs:element name="importFiles" type="boolean"/>
+				<xs:element name="CSVPropertiesFilePath" type="xs:string"/>
+				<xs:element name="CSVFilesURIFilePath" type="xs:string"/>
+				<xs:element name="MetadataFilePath" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+  
+  
+    
+    <xs:complexType name="regex">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="run" type="boolean" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+	
+	
+    
+    <xs:simpleType name="boolean">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"></xs:enumeration>
+                <xs:enumeration value="no"></xs:enumeration>
+            </xs:restriction>
+        </xs:simpleType>
+   
+  
+
+    <xs:simpleType name="http">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="http://.+"></xs:pattern>
+         </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

@@ -1,0 +1,7 @@
+﻿file,Column
+Port.csv,SITE
+Cave.csv,DESCRIPTIO
+Ancient_Building.csv,DESCRIPTIO
+Ancient_Monastery,DESCRIPTIO
+Ancient_Place,DESCRIPTIO
+Winery.csv,ΕΠΩΝΥΜΙΑ (EN)

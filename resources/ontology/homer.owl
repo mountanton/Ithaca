@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY homer "http://www.homeropendata.com/ontologies/homer.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.homeropendata.com/ontologies/homer.owl#"
+     xml:base="http://www.homeropendata.com/ontologies/homer.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:homer="http://www.homeropendata.com/ontologies/homer.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#area -->
+
+    <owl:ObjectProperty rdf:about="#area"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#kind -->
+
+    <owl:ObjectProperty rdf:about="#kind"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#municipality -->
+
+    <owl:ObjectProperty rdf:about="#municipality"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#prefecture -->
+
+    <owl:ObjectProperty rdf:about="#prefecture"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#author -->
+
+    <owl:DatatypeProperty rdf:about="#author"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#capacity -->
+
+    <owl:DatatypeProperty rdf:about="#capacity"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#code -->
+
+    <owl:DatatypeProperty rdf:about="#code"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#contactPerson -->
+
+    <owl:DatatypeProperty rdf:about="#contactPerson"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#eventCapability -->
+
+    <owl:DatatypeProperty rdf:about="#eventCapability"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#geoBoundingBox -->
+
+    <owl:DatatypeProperty rdf:about="#geoBoundingBox"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#guideCapability -->
+
+    <owl:DatatypeProperty rdf:about="#guideCapability"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#guideLanguage -->
+
+    <owl:DatatypeProperty rdf:about="#guideLanguage"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#hasBusAccesibility -->
+
+    <owl:DatatypeProperty rdf:about="#hasBusAccesibility"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#hasDisabledAccesibility -->
+
+    <owl:DatatypeProperty rdf:about="#hasDisabledAccesibility"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#hasShop -->
+
+    <owl:DatatypeProperty rdf:about="#hasShop"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#keyword -->
+
+    <owl:DatatypeProperty rdf:about="#keyword"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#license -->
+
+    <owl:DatatypeProperty rdf:about="#license"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#lineage -->
+
+    <owl:DatatypeProperty rdf:about="#lineage"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#locator -->
+
+    <owl:DatatypeProperty rdf:about="#locator"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#maintainer -->
+
+    <owl:DatatypeProperty rdf:about="#maintainer"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#ofConventionalAgriculture -->
+
+    <owl:DatatypeProperty rdf:about="#ofConventionalAgriculture"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#ofOrganicFarming -->
+
+    <owl:DatatypeProperty rdf:about="#ofOrganicFarming"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portAspect -->
+
+    <owl:DatatypeProperty rdf:about="#portAspect"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portAuthority -->
+
+    <owl:DatatypeProperty rdf:about="#portAuthority"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portCapacity -->
+
+    <owl:DatatypeProperty rdf:about="#portCapacity"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portConnection -->
+
+    <owl:DatatypeProperty rdf:about="#portConnection"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portDepth -->
+
+    <owl:DatatypeProperty rdf:about="#portDepth"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portDims -->
+
+    <owl:DatatypeProperty rdf:about="#portDims"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portDistance -->
+
+    <owl:DatatypeProperty rdf:about="#portDistance"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portDock -->
+
+    <owl:DatatypeProperty rdf:about="#portDock"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portExternal -->
+
+    <owl:DatatypeProperty rdf:about="#portExternal"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasElectricity -->
+
+    <owl:DatatypeProperty rdf:about="#portHasElectricity"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasFix -->
+
+    <owl:DatatypeProperty rdf:about="#portHasFix"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasFuelStation -->
+
+    <owl:DatatypeProperty rdf:about="#portHasFuelStation"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasInternet -->
+
+    <owl:DatatypeProperty rdf:about="#portHasInternet"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasMedical -->
+
+    <owl:DatatypeProperty rdf:about="#portHasMedical"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasReception -->
+
+    <owl:DatatypeProperty rdf:about="#portHasReception"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasServices -->
+
+    <owl:DatatypeProperty rdf:about="#portHasServices"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasShops -->
+
+    <owl:DatatypeProperty rdf:about="#portHasShops"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasTelephone -->
+
+    <owl:DatatypeProperty rdf:about="#portHasTelephone"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHasWaterStation -->
+
+    <owl:DatatypeProperty rdf:about="#portHasWaterStation"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portHeight -->
+
+    <owl:DatatypeProperty rdf:about="#portHeight"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portInternal -->
+
+    <owl:DatatypeProperty rdf:about="#portInternal"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portManouvre -->
+
+    <owl:DatatypeProperty rdf:about="#portManouvre"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portOpening -->
+
+    <owl:DatatypeProperty rdf:about="#portOpening"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portPercentage -->
+
+    <owl:DatatypeProperty rdf:about="#portPercentage"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portSurface -->
+
+    <owl:DatatypeProperty rdf:about="#portSurface"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portVolume -->
+
+    <owl:DatatypeProperty rdf:about="#portVolume"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portWaves -->
+
+    <owl:DatatypeProperty rdf:about="#portWaves"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#portWind -->
+
+    <owl:DatatypeProperty rdf:about="#portWind"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#rdvCapability -->
+
+    <owl:DatatypeProperty rdf:about="#rdvCapability"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#resourceAbstract -->
+
+    <owl:DatatypeProperty rdf:about="#resourceAbstract"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#responsibleParty -->
+
+    <owl:DatatypeProperty rdf:about="#responsibleParty"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#spatialResolution -->
+
+    <owl:DatatypeProperty rdf:about="#spatialResolution"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#topicCategory -->
+
+    <owl:DatatypeProperty rdf:about="#topicCategory"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#videoCapability -->
+
+    <owl:DatatypeProperty rdf:about="#videoCapability"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#workingDays -->
+
+    <owl:DatatypeProperty rdf:about="#workingDays"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#workingHours -->
+
+    <owl:DatatypeProperty rdf:about="#workingHours"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#workingMonths -->
+
+    <owl:DatatypeProperty rdf:about="#workingMonths"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#x_coord -->
+
+    <owl:DatatypeProperty rdf:about="#x_coord"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#y_coord -->
+
+    <owl:DatatypeProperty rdf:about="#y_coord"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building -->
+
+    <owl:Class rdf:about="#Ancient_Building"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery -->
+
+    <owl:Class rdf:about="#Ancient_Monastery"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Ancient_Place -->
+
+    <owl:Class rdf:about="#Ancient_Place"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Architectural_Heritage_Building -->
+
+    <owl:Class rdf:about="#Architectural_Heritage_Building"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Beach -->
+
+    <owl:Class rdf:about="#Beach"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Bicycle_Route -->
+
+    <owl:Class rdf:about="#Bicycle_Route"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Botanical_Route -->
+
+    <owl:Class rdf:about="#Botanical_Route"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Car_Motorbike_Route -->
+
+    <owl:Class rdf:about="#Car_Motorbike_Route"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Cave -->
+
+    <owl:Class rdf:about="#Cave"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Church_Monastery -->
+
+    <owl:Class rdf:about="#Church_Monastery"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#E4_Route -->
+
+    <owl:Class rdf:about="#E4_Route"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Gorge -->
+
+    <owl:Class rdf:about="#Gorge"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Health_Service -->
+
+    <owl:Class rdf:about="#Health_Service"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Museum -->
+
+    <owl:Class rdf:about="#Museum"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Organisation -->
+
+    <owl:Class rdf:about="#Organisation"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Port -->
+
+    <owl:Class rdf:about="#Port"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route -->
+
+    <owl:Class rdf:about="#Rock_Climbing_Route"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Shelter -->
+
+    <owl:Class rdf:about="#Shelter"/>
+    
+
+
+    <!-- http://www.homeropendata.com/ontologies/homer.owl#Winery -->
+
+    <owl:Class rdf:about="#Winery"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

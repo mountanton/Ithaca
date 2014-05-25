@@ -1,0 +1,19 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Cave.csv> a void:Dataset ; 
+dc:creator "Περιφέρεια Κρήτης" ; 
+homer:maintainer "Περιφέρεια Κρήτης" ; 
+dc:language "GR" ; 
+homer:responsibleParty "Περιφέρεια Κρήτης" ; 
+homer:topicCategory "Τουρισμός" ; 
+homer:topicCategory "Περιβάλλον" ; 
+homer:locator <http://www.opencrete.gr/dataset/ettnja1a> ; 
+ .

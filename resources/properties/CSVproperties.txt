@@ -1,0 +1,76 @@
+﻿ontologyProperty,csvLabel,Language,Type,XSD
+kind,KIND,gr,Literal,-
+municipality,D_D,-,URI,-
+prefecture,DEPARTMENT,-,URI,-
+x_coord,X_COORD_1,-,Literal,-
+y_coord,Y_COORD_1,-,Literal,-
+portHasWaterStation,WATER,-,Literal,boolean
+portHasFuelStation,FUEL,-,Literal,boolean
+portHasElectricity,ELECTRICIT,-,Literal,boolean
+portHasTelephone,TELEPHONE,-,Literal,boolean
+portHasInternet,INTERNET,-,Literal,boolean
+portHasReception,RECEPTION,-,Literal,boolean
+portHasFix,FIX,-,Literal,boolean
+portHasShops,SHOPS,-,Literal,boolean
+portHasServices,SERVICES,-,Literal,boolean
+portHasMedical,MEDICAL,-,Literal,boolean
+portAuthority,AUTHORITY_,-,Literal,-
+portAspect,ASPECT,-,Literal,-
+geo:long,LON,-,Literal,double
+geo:lat,LAT,-,Literal,double
+portConnection,CONNENTION,-,Literal,-
+portDistance,DISTANCE,-,Literal,-
+portWind,WIND,-,Literal,-
+portVolume,VOLUME,-,Literal,-
+portPercentage,PERCENTAGE,-,Literal,-
+portWaves,WAVES,-,Literal,-
+portExternal,EXTERNAL_,-,Literal,-
+portInternal,INTERNAL,-,Literal,-
+portDock,DOCK,-,Literal,-
+portSurface,SURFACE,-,Literal,-
+portDepth,DEPTH,-,Literal,-
+portOpening,OPENING,-,Literal,-
+portManouvre,MANOUVRE,-,Literal,-
+portCapacity,CAPACITY,-,Literal,-
+portDims,DIMS,-,Literal,-
+portHeight,HEIGHT,-,Literal,-
+code,CODE1,-,Literal,-
+x_coord,X_COORD,-,Literal,-
+y_coord,Y_COORD,-,Literal,-
+area,SITE,-,Literal,-
+kind,KIND,gr,Literal,-
+prefecture,PERFECTURE,-,URI,-
+rdfs:label,ΕΠΩΝΥΜΙΑ (GR),gr,Literal,-
+rdfs:label,ΕΠΩΝΥΜΙΑ (EN),en,Literal,-
+rdfs:comment,ΣΥΝΤΟΜΗ ΠΕΡΙΓΡΑΦΗ (GR),gr,Literal,-
+rdfs:comment,ΣΥΝΤΟΜΗ ΠΕΡΙΓΡΑΦΗ (EN),en,Literal,-
+vcard:Logo,Αρχειο ή Διεύθυνση Λογότυπου (Αρχείο png ή jpg ή gif),-,FULL_URI,-
+vcard:hasPhoto,Αρχειο ή Διεύθυνση Εικόνας (Αρχείο png ή jpg ή gif),-,FULL_URI,-
+geo:lat,ΓΕΩΓΡΑΦΙΚΟ ΠΛΑΤΟΣ (latitude),-,Literal,double	
+geo:long,ΓΕΩΓΡΑΦΙΚΟ ΜΗΚΟΣ (longitude),-,Literal,double
+contactPerson,Υπεύθυνος Επικοινωνίας (GR),gr,Literal,-
+contactPerson,Υπεύθυνος Επικοινωνίας (EN),en,Literal,-
+vcard:hasAddress,ΔΙΕΥΘΥΝΣΗ GR,gr,Literal,-
+vcard:hasAddress,ΔΙΕΥΘΥΝΣΗ EN,en,Literal,-
+prefecture,ΝΟΜΟΣ GR,-,URI,-
+municipality,ΔΗΜΟΣ EN,-,URI,-
+area,ΠΕΡΙΟΧΗ EN,-,URI,-
+vcard:postal-code,ΤΚ,-,Literal,-
+vcard:hasTelephone,ΤΗΛ.,-,Literal,-
+vcard:hasTelephone,ΚΙΝΗΤΟ,gr,Literal,-
+vcard:hasEmail,EMAIL,-,Literal,-
+foaf:homepage,WEBSITE,-,FULL_URI,-
+workingMonths,ΜΗΝΕΣ ΛΕΙΤΟΥΡΓΙΑΣ,-,Literal,-
+workingDays,ΗΜΕΡΕΣ ΛΕΙΤΟΥΡΓΙΑΣ,-,Literal,-
+workingHours,ΩΡΑΡΙΟ,-,Literal,-
+ofOrganicFarming,ΒΙΟΛΟΓΙΚΗ (ΝΑΙ/ΟΧΙ),-,Literal,boolean	
+guideLanguage,ΓΛΩΣΣΕΣ ΞΕΝΑΓΗΣΗΣ,-,Literal,-
+eventCapability,ΔΥΝΑΤΟΤΗΤΑ ΕΚΔΗΛΩΣΕΩΝ (ΝΑΙ/ΟΧΙ),-,Literal,boolean
+capacity,ΑΡΙΘΜΟΣ ΑΤΟΜΩΝ,-,Literal,-	
+hasBusAccessibility,ΠΡΟΣΒΑΣΗ ΜΕ ΛΕΩΦΟΡΕΙΟΥ (ΝΑΙ/ΟΧΙ),-,Literal,boolean
+rdvCapability,ΞΕΝΑΓΗΣΗ ΜΕ RDV (ΝΑΙ/ΟΧΙ),-,Literal,boolean
+quideCapability,ΞΕΝΑΓΗΣΗ ΣΤΟ ΟΙΝΟΠΟΙΕΙΟ (ΝΑΙ/ΟΧΙ),-,Literal,boolean
+videoCapability,ΠΡΟΒΟΛΗ VIDEO (ΝΑΙ/ΟΧΙ),-,Literal,boolean		
+hasDisabledAccessibility,ΠΡΟΣΒΑΣΗ ΣΕ ΑΜΕΑ (ΝΑΙ/ΟΧΙ),-,Literal,boolean
+hasShop,ΠΩΛΗΣΗ ΛΟΙΠΩΝ ΠΡΟΙΟΝΤΩΝ (ΝΑΙ/ΟΧΙ),-,Literal,boolean		
+ofConventionalAgriculture,ΣΥΜΒΑΤΙΚΗ ΚΑΛΛΙΕΡΓΙΑ (ΝΑΙ/ΟΧΙ),-,Literal,boolean	

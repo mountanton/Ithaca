@@ -1,0 +1,15 @@
+Author	dc:creator
+Maintainer	homer:maintainer
+Conditions for access and use	homer:license
+Date of last revision	dc:modified
+Date of creation	dc:created
+Geographic Bounding Box	homer:geoBoundingBox
+Keyword Value	dc:keyword
+Lineage	homer:lineage
+Resource Abstract	homer:resourceAbstract
+Resource Language	dc:language
+Resource Locator	homer:locator
+Resource Title	dc:title
+Responsible Party	homer:responsibleParty
+Spatial Resolution	homer:spatialResolution
+Topic Category	homer:topicCategory

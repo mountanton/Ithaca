@@ -1,0 +1,292 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml> a void:Dataset .
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Κέντρο_Αρχιτεκτονικής_Μεσογείου> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Κέντρο Αρχιτεκτονικής Μεσογείου"@gr ;
+geo:lat "35.51861"^^xsd:double ;
+geo:long "24.01906"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Ινστιτούτο_Κρητικού_Δικαίου> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Ινστιτούτο Κρητικού Δικαίου"@gr ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Βίλα_Κούνδουρου_(Πολύκεντρο_Νεολαίας_και_Εικαστικό_Εργαστήρι_Δήμου_Χανίων)> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Βίλα Κούνδουρου (Πολύκεντρο Νεολαίας και Εικαστικό Εργαστήρι Δήμου Χανίων)"@gr ;
+geo:lat "35.51612"^^xsd:double ;
+geo:long "24.03102"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Φιλολογικός_Σύλλογος_«ο_Χρυσόστομος»> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Φιλολογικός Σύλλογος «ο Χρυσόστομος»"@gr ;
+geo:lat "35.51538"^^xsd:double ;
+geo:long "24.0177"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Δημοτική_Πινακοθήκη> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Δημοτική Πινακοθήκη"@gr ;
+geo:lat "35.51538"^^xsd:double ;
+geo:long "24.01770"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Βενιζέλειο_Ωδείο_Χανίων> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Βενιζέλειο Ωδείο Χανίων"@gr ;
+rdfs:comment "Προσβάσιμο απο Α.Μ.Ε.Α: Ναι
+
+
+
+Διεύθυνση: Ν. Φωκά 5
+
+
+
+Ώρες λειτουργίας: Ανοικτά: 8.00-14.00 καιamp; 17.00-21.00
+
+
+
+Τηλέφωνο: (+30)2821043067, (+30)2821052582
+
+
+
+"@gr  ;
+geo:lat "35.51403"^^xsd:double ;
+geo:long "24.02077"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Λύκειο_Ελληνίδων> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Λύκειο Ελληνίδων"@gr ;
+geo:lat "35.51140"^^xsd:double ;
+geo:long "24.02974"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Πολιτιστικό_Κέντρο_Μητρόπολης> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Πολιτιστικό Κέντρο Μητρόπολης"@gr ;
+geo:lat "35.51131"^^xsd:double ;
+geo:long "24.02690"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Πνευματικό_Κέντρο_Χανίων> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Πνευματικό Κέντρο Χανίων"@gr ;
+geo:lat "35.51198"^^xsd:double ;
+geo:long "24.02607"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Τέμενος_Κιουτσούκ_Χασάν_(«Γυαλί-Τζαμισί»)> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Τέμενος Κιουτσούκ Χασάν («Γυαλί-Τζαμισί»)"@gr ;
+geo:lat "35.517406"^^xsd:double ;
+geo:long "24.017835"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Πάρκο_Διάσωσης_Χλωρίδας_και_Πανίδας> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Πάρκο Διάσωσης Χλωρίδας και Πανίδας"@gr ;
+geo:lat "35.52955"^^xsd:double ;
+geo:long "24.06853"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Συλλογή_Φραντζεσκάκη> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Συλλογή Φραντζεσκάκη"@gr ;
+rdfs:comment "Στη συλλογή Ελένης Φραντζεσκάκη που στεγάζεται σε κτήριο της οδού Χειμάρας, ακριβώς απέναντι από την Πινακοθήκη καιlaquo;Λ. Κανακάκιςκαιraquo;, περιλαμβάνονται έργα παραδοσιακής χειροτεχνίας όπως υφαντά, κεντήματα, δαντέλες. "@gr  ;
+geo:lat "35.37175"^^xsd:double ;
+geo:long "24.47359"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Μουσείο_Ενάλιας_Ζωής> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Μουσείο Ενάλιας Ζωής"@gr ;
+rdfs:comment "Βρίσκεται στην παλιά πόλη και στεγάζεται στο παλαιό κτήριο του αβαείου που αναπαλαιώθηκε πρόσφατα και φιλοξενεί μια από τις σημαντικότερες συλλογές του Ρεθύμνου. Περιλαμβάνονται μαλάκια, σπόγγοι, ιχθύες και ορισμένα απολιθώματα."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Rethymno> ;
+geo:lat "35.37021"^^xsd:double ;
+geo:long "24.47363"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Εργαστήριο_και_Εκθετήριο_Ξυλογλυπτικής_στην_Αξό_Μυλοποτάμου> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Εργαστήριο και Εκθετήριο Ξυλογλυπτικής στην Αξό Μυλοποτάμου"@gr ;
+rdfs:comment "Στην Αξό Μυλοποτάμου, μία ώρα απόσταση από τις πόλεις του Ρεθύμνου και του Ηρακλείου, μέσα στο φυσικό περιβάλλον, εκτίθενται σε ένα διώροφο νεόκτιστο χώρο 300 τ.μ., χειροποίητα έργα τέχνης από ένα σφυρί και ένα σκαρπέλο. Παραδοσιακές λαογραφικές μορφές και θέματα ( καιquot;Ο Λυράρηςκαιquot;, καιquot;Ο Κρητικόςκαιquot;, καιquot;Ο παππούς και η Γιαγιάκαιquot;, καιquot;πηγαίνοντας στο χωράφικαιquot; κ.α.), παραστάσεις της φύσης και του οικολογικού μας συστήματος (καιquot;Ο Αϊτός και ο Όφιςκαιquot;, καιquot;Το Κρι Κρικαιquot;), θρησκευτικού περιεχομένου (Ο καιquot;Άγιος Γεώργιος του Διοσκουρίουκαιquot;, καιquot;Ο χορός του Ησαΐακαιquot;), κοινωνικού περιεχομένου (καιquot;Ο Ασθενήςκαιquot;) και από τη μυθολογία (καιquot;Η Μικρή Γοργόνακαιquot;).Οι διαστάσεις των γλυπτών είναι σε φυσικό μέγεθος, ενώ ορισμένα από αυτά παρουσιάζονται σε μεγαλύτερες διαστάσεις, όπως καιquot;Ο Αετός και ο Όφιςκαιquot; μήκους περίπου 6 μέτρων, καιquot;Οι γονείς μου και εγώκαιquot; ύψους περίπου τριών μέτρων.Τα ξύλα συλλέχτηκαν από όλη την Κρήτη, κυρίως ξερά δέντρα ή ξεριζωμένα από φυσικές καταστροφές."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Herakleion> ;
+geo:lat "35.3130"^^xsd:double ;
+geo:long "24.8427"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Μουσείο_Κέρινων_Ομοιωμάτων_«Ποταμιανού»> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Μουσείο Κέρινων Ομοιωμάτων «Ποταμιανού»"@gr ;
+rdfs:comment "Το μουσείο καιquot;ΠΟΤΑΜΙΑΝΟΥκαιquot; περιλαμβάνει 87 κέρινα ομοιώματα, που σε φυσικό μέγεθος αναπαριστούν, μπροστά στα μάτια του θεατή, σκηνές από την ιστορία της Κρήτης.Σε ένα ειδικά διαμορφωμένο για το μουσείο χώρο 1000 τετραγωνικών μέτρων και με διακόσμηση ανάλογη της θεματολογίας, προβάλλονται σκηνές όπως του Ελ. Βενιζέλου, του Κορνάρου, του Αρκαδίου, του Θεοτοκόπουλου, του Καζαντζάκη και άλλων σημαντικών προσωπικοτήτων."@gr  ;
+geo:lat "35.3017"^^xsd:double ;
+geo:long "24.830"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Λαογραφικό_Ιστορικό_Μουσείο_-_Σωματάς_Ρεθύμνου_(ιδιωτική_συλλογή)> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Λαογραφικό Ιστορικό Μουσείο - Σωματάς Ρεθύμνου (ιδιωτική συλλογή)"@gr ;
+rdfs:comment "Λαογραφικό- Πολεμικό καιndash; Ιστορικό Μουσείο, από το 1821 έως και σήμερα.Τα εκθέματα περιλαμβάνουν: πολεμικά είδη, λαογραφικά είδη, φωτογραφικό υλικό, παλιά νομίσματα,  υπάρχει μεγάλη συλλογή γραμματοσήμων, αρχαία κειμήλια, παλιά γεωργικά εργαλεία,  παλιές οικοσκευές κ.λ.π."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Rethymno> ;
+geo:lat "35.32567"^^xsd:double ;
+geo:long "24.45823"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Μουσείο_της_Ελιάς_στα_Καψαλιανά_Αρκαδίου> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Μουσείο της Ελιάς στα Καψαλιανά Αρκαδίου"@gr ;
+rdfs:comment "To Eλληνικό Mουσείο της Ελιάς στα Καψαλιανά Ρεθύμνου Κρήτης, στεγάζεται στους αναστηλωμένους χώρους του ελαιόμυλου της μονής Αρκαδίου, που οικοδομήθηκε το 1763 από τον ηγούμενο Φιλάρετο. Βρίσκεται στο κέντρο ενός οικιστικού συνόλου χαρακτηρισμένου καιldquo;υψηλής πολιτιστικής αξίαςκαιrdquo; και του ιστορικού ελαιώνα του. Την επιστημονική επιμέλεια του Μουσείου έχει το Κέντρο Λαογραφίας.
+
+
+
+Το κτηριακό συγκρότημα, που αποτελεί έκθεμα το ίδιο, περιλαμβάνει το Κελί του μοναχού-οικονόμου, τον χώρο παραγωγής του 1763 που παρέμεινε σε λειτουργία ως τις αρχές του 20ού αιώνα καθώς και τον φρουριακό χώρο αποθήκευσης. Το Μουσείο είναι αφιερωμένο στη μνήμη του τόπου και στην πολιτιστική κληρονομιά της ελιάς και του ελαιολάδου."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Rethymno> ;
+geo:lat "35.34030"^^xsd:double ;
+geo:long "24.61980"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Ο_μύλος_του_Πρινάρη,_Χρωμοναστήρι> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Ο μύλος του Πρινάρη, Χρωμοναστήρι"@gr ;
+rdfs:comment "Η παλιά φάμπρικα, (ελαιόμυλος) του Πρινάρη, πλήρως ανακαινισμένη, με όλο τον παλιό της εξοπλισμό, που μπορεί να δουλέψει και σήμερα, λειτουργεί ως Κέντρο Εκπαίδευσης και Ενημέρωσης για τον Πολιτισμό της ελιάς, του λαδιού και των Μύλων. Σε ειδική αίθουσα υπάρχει όλος ο εξοπλισμός ενός χωριάτικου νοικοκυρόσπιτου των μέσων του περασμένου αιώνα και πίσω, όταν τα σπίτια ήταν μονόχωρα ή μονόσπιτα, που σημαίνει πως όλες οι δραστηριότητες της καιlaquo; κατκαιrsquo; οίκον καιraquo; διαβίωσης, γίνοταν μέσα σε ένα και μοναδικό χώρο."@gr  ;
+geo:lat "35.3263"^^xsd:double ;
+geo:long "24.5110"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Παπαγεωργουλάκειο_Λαογραφικό_Μουσείο,_Ασώματος> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Παπαγεωργουλάκειο Λαογραφικό Μουσείο, Ασώματος"@gr ;
+rdfs:comment "Ο παπά Μιχάλης Γεωργουλάκης άρχισε να συλλέγει διάφορα αντικείμενα όταν ήταν ακόμη 15 χρονών. Ο ανοιχτός τρόπος με τον οποίο έβλεπε τον κόσμο και η διορατικότητα του ότι το καιldquo;σήμερακαιrdquo; γίνεται γρήγορα καιldquo;παρελθόνκαιrdquo; δίνουν την δυνατότητα να παρουσιαστεί μια ασυνήθιστη και μοναδική συλλογή από την κρητική ζωή του περασμένου αιώνα.Με το μοναδικό του πείσμα και την απίστευτη μανία του για την λεπτομέρεια, κατάφερε ο παπά Μιχάλης να δημιουργήσει ένα πρωτότυπο μουσείο με αντικείμενα καθημερινής χρήσης, αντίκες, πολεμικά ενθύμια, εκκλησιαστικά αντικείμενα κ.λ.π.
+
+Το Oriseum βρίσκεται στο διακοσμημένο με λάμπες, καντήλια και λουλούδια πατρικό του σπίτι. Ο παπά Μιχάλης πέθανε τον Οκτώβριο του 2008 σε ηλικία 87 χρονών αφήνοντας πίσω του ένα έργο ζωής μοναδικό.Σύμφωνα με την επιθυμία του παπά Μιχάλη το Oriseum συνεχίζει να λειτουργεί από τον γιό του Γιώργο και την νύφη του Romi. Τα εκθέματα επεξηγούνται σε 4 γλώσσες (ελληνικά, αγγλικά, γερμανικά και γαλλικά).Εκτός από ένα ειδυλλιακό καφενείο και ένα κατάστημα με ενθύμια ο χώρος του Oriseum χρησιμοποιείται για καλλιτεχνικές εκδηλώσεις όπως συναυλίες με ζωντανή μουσική, περιοδικές εκθέσεις και άλλα."@gr  ;
+geo:lat "35.3263"^^xsd:double ;
+geo:long "24.5110"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Πνευματικό_-_Πολιτιστικό_Κέντρο_Ανέστης_και_Μανώλης_Αναγνωστάκης> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Πνευματικό - Πολιτιστικό Κέντρο Ανέστης και Μανώλης Αναγνωστάκης"@gr ;
+rdfs:comment "Μανώλης Αναγνωστάκης 1925 καιndash; 2005.
+
+Ένας από τους κορυφαίους ποιητές της πρώτης μεταπολεμικής γενιάς με καταγωγή από τα Ρούστικα Ρεθύμνης, γενέτειρα του πατέρα του.Σπούδασε Ιατρική και ειδικεύτηκε ως ακτινολόγος στη Βιέννη.Το ποιητικό του έργο καθόρισε την ομάδα των στρατευμένων ποιητών της μεταπολεμικής ποίησης. Έργα του Μανώλη Αναγνωστάκη μελοποιήθηκαν από τον Μίκη Θεοδωράκη και άλλους  Έλληνες συνθέτες και μεταφράστηκαν σε ξένες γλώσσες.Το πνευματικό - πολιτιστικό κέντρο Ανέστης και Μανώλης Αναγνωστάκης, στεγάζεται στο σπίτι της οικογένειας Αναγνωστάκη, το οποίο δωρίσθηκε στην κοινότητα των Ρουστίκων από τον ίδιο τον ποιητή. Εκεί συναντά κανείς τις συλλογές που εκτίθενται από τη ζωή του και από το έργο του."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Rethymno> ;
+geo:lat "35.2900"^^xsd:double ;
+geo:long "24.3759"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Το_σπίτι_του_Πολιού> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Το σπίτι του Πολιού"@gr ;
+rdfs:comment "Ένα ξεχωριστό παραδοσιακό καφενείο καιlaquo;Το σπίτι του Πολιούκαιraquo; συναντά κανείς στο χωριό Αστέρι του Δήμου Αρκαδίου.Οι θαμώνες μπορούν να απολαύσουν εκεί τα παραδοσιακά προϊόντα αλλά και να κάνουν μία βόλτα στο λαογραφικό μουσείο του.Το μουσείο είναι ένα παραδοσιακό Κρητικό σπίτι των επτά δωματίων με τα υφαντά του, τις παλιές φωτογραφίες, τα δωμάτια υποδοχής κ.α.Το παραδοσιακό καφενείο έχει προαύλιο χώρο στον οποίον εκθέτουν τα εργαλεία του γεωργού, του χτίστη, του τσαγκάρη και του κτηνοτρόφου.Το καφενείο το δημιούργησε ο Γιώργος Πολιουδάκης ο οποίος πιστεύει ότι καιlaquo;οι επισκέπτες γνωρίζουν την Κρητική παράδοση αλλά και τον τρόπο ζωής των Κρητώνκαιraquo;."@gr  ;
+geo:lat "35.36876"^^xsd:double ;
+geo:long "24.59641"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Μουσείο_Ελληνικών_Παραδοσιακών_Ενδυμασιών_Καίτης_και_Ανδρέα_Φραγκιαδάκη> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Μουσείο Ελληνικών Παραδοσιακών Ενδυμασιών Καίτης και Ανδρέα Φραγκιαδάκη"@gr ;
+rdfs:comment "Στο  χωριό Ρούστικα που βρίσκεται 20 χλμ. ΝΔ της πόλης του Ρεθύμνου και στο καιlsquo;καιrsquo;ΡΟΥΣΤΙΚΩΝ ΜΕΛΑΘΡΟΝκαιrsquo;καιrsquo;, στεγάζεται το Μουσείο Ελληνικών Παραδοσιακών ενδυμασιών της Καίτης καιamp; Ανδρέα Φραγκιαδάκη.Μοναδικό σε ολόκληρη την Κρήτη για τον πλούτο των ενδυμασιών από όλη την Ελλάδα, Ηπειρωτική και Νησιωτική και τις αλύτρωτες πατρίδες.Το Μουσείο είναι τμήμα του Ελληνικού Παραδοσιακού Κέντρου Λαϊκής τέχνης (ΕΡ CENTER) ΚΟΙΝΩΝΙΑ ΠΑΡΕΛΘΟΝΤΟΣ.Ακόμη στον χώρο των 11 στρεμμάτων υπάρχουν εκκλησία, Αλώνι του 1843, συνεδριακός χώρος  200 περίπου ατόμων, πετρόκτιστο καιlaquo;ρακιδιόκαιraquo;(παραγωγής ρακί), πετρόκτιστο καιlaquo;χαλκιδιόκαιraquo; ( παραδοσιακό σπίτι  Ρουστίκων),  πετρόκτιστο αντίγραφο των παλαιών καμαρόσπιτων, εργαστήριο υφαντών, παραδοσιακό καφενείο και ταβέρνα ,που μπορείτε  να πιείτε τον καφέ σας ή να γευτείτε την Κρητική Μεσογειακή κουζίνα."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Lasithi> ;
+geo:lat "35.2900"^^xsd:double ;
+geo:long "24.3759"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Δημοτικό_σχολείο_Αίμωνα> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Δημοτικό σχολείο Αίμωνα"@gr ;
+rdfs:comment "Το κτήριο του Δημοτικού Σχολείου του Αίμονα είναι λιθόκτιστο, ψηλοτάβανο με τετράρριχτη στέγη από γαλλικά κεραμίδια. Έχει την τυπική κάτοψη των σχολείων της περιόδου του 1900, δηλαδή μία ορθογώνια αίθουσα διδασκαλίας με δωμάτιο δασκάλου-βιβλιοθήκη και χωλ εισόδου. Τα κουφώματα είναι ξύλινα, τα παράθυρα είναι ψηλόκορμα με τζαμιλίκια και ταμπλαδωτά εξώφυλλα. Το ταβάνι είναι ξύλινο από σανίδες πλάτους 0,15 εκ."@gr  ;
+geo:lat "35.3333"^^xsd:double ;
+geo:long "24.8684"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Κουλές_στον_Κοξαρέ_Μυλοποτάμου> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Κουλές στον Κοξαρέ Μυλοποτάμου"@gr ;
+rdfs:comment "Αξιόλογο δείγμα φρουριακής αρχιτεκτονικής άρρηκτα συνδεδεμένο με την ιστορία του τόπου και τις μνήμες των κατοίκων της περιοχής.Το κάστρο αποτελείται από μία μεγάλη εσωτερική αυλή, η οποία περιβάλλεται σε όλο το μήκος της δυτικής πλευράς από δύο συνεχόμενους χώρους οι οποίοι ενώνονται με καμάρες. Η στέγαση των χώρων αυτών γίνεται με ψηλούς θόλους. Στην ανατολική υπάρχει κτίσμα που στεγάζεται και αυτό με θόλο χαμηλότερο από τους προηγούμενους σε όλο το μήκος της πλευράς αυτής. 
+
+
+
+Η πρόσβαση γίνεται με ράμπα από την νότια πλευρά στην οποία το περιτείχισμα διακόπτεται από ένα κλειστό τμήμα για την είσοδο. Ο κουλές είναι κατασκευασμένος από τοπική υπόλευκη πέτρα με σκληρό συνδετικό κονίαμα. Εξωτερικά και εσωτερικά είναι επιχρισμένο και το πάχος της λιθοδομής είναι 1,20 μ. Έχουν καταρρεύσει το δυτικό και ανατολικό κτίσμα. Υπάρχει δεξαμενή συλλογής βρόχινου νερού της οποίας σώζεται το εσωτερικό υδραυλικό κονίαμα."@gr  ;
+geo:lat "35.239"^^xsd:double ;
+geo:long "24.464"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Organisation_Ινστιτούτο_Επαρχιακού_Τύπου_(ΙΕΤ)> a <http://www.homeropendata.com/ontologies/homer.owl#Organisation> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Organisation.xml>;
+rdfs:label "Ινστιτούτο Επαρχιακού Τύπου (ΙΕΤ)"@gr ;
+rdfs:comment "Ινστιτούτο Επαρχιακού Τύπου (ΙΕΤ)
+
+
+
+Λίγα λόγια για το Ινστιτούτο:
+
+Το Ινστιτούτο Επαρχιακού Τύπου (ΙΕΤ) αποτελεί μία καινοτόμα πρωτοβουλία η οποία στοχεύει στην κάλυψη των αναγκών συμπληρωματικής εκπαίδευσης και κατάρτισης των δημοσιογράφων και των υπόλοιπων επαγγελματιών στον χώρο των ΜΜΕ, με έμφαση στον Τύπο της περιφέρειας.
+
+Πρόκειται για το μοναδικό ινστιτούτο συνεχιζόμενης κατάρτισης στην Ελλάδα, μη κερδοσκοπικού χαρακτήρα, το οποίο έχει δημιουργηθεί από μια επαγγελματική δημοσιογραφική ένωση, τον Σύνδεσμο Ημερησίων Περιφερειακών Εφημερίδων.
+
+Ταυτοχρόνως το ΙΕΤ μεσοπρόθεσμα θα αναπτύξει δράσεις στον τομέα της εφαρμοσμένης έρευνας και ιδιαιτέρως στις μελέτες που αφορούν την ιστορία, και τις προοπτικές ανάπτυξης του επαρχιακού τύπου στην Ελλάδα και όχι μόνο.
+
+Το Ινστιτούτο Επαρχιακού Τύπου έχει ήδη συνεργαστεί με ομοειδή ινστιτούτα του εξωτερικού και πανεπιστημιακά τμήματα Δημοσιογραφίας και ΜΜΕ στην Ελλάδα και στις άλλες χώρες της Ευρώπης ώστε να συμβάλλει στην αποτελεσματικότερη κατάρτιση και έρευνα.
+
+
+
+Το Ινστιτούτο στοχεύει:
+
+-Στην επιμόρφωση στελεχών - δημοσιογράφων των Μέσων Ενημέρωσης της ελληνικής περιφέρειας.
+
+-Στη διοργάνωση διεθνών συνεδρίων, σε συνεργασία με τα ανά την Ευρώπη - και όχι μόνον- λειτουργούντα παρόμοια ινστιτούτα.
+
+-Στην έγκαιρη ενημέρωση των εκδοτών σε θέματα εκσυγχρονισμού των μικρών επιχειρήσεών τους.
+
+
+
+Σύντομη παρουσίαση του ΙΕΤ:
+
+Το Ινστιτούτο Επαρχιακού Τύπου (ΙΕΤ) είναι ένας μη κερδοσκοπικός φορέας συνεχιζόμενης εκπαίδευσης και επανακατατάρτισης των δημοσιογράφων και των εργαζομένων στα ΜΜΕ με ιδιαίτερη έμφαση στον περιφερειακό τύπο. Το Ινστιτούτο έχει ως μέλη του εκπροσώπους ανά περιφέρεια των ημερήσιων επαρχιακών εφημερίδων που ανήκουν στον Σύνδεσμο Ημερησίων Περιφερειακών Εφημερίδων και διοικείται με βάση το καταταστατικό του από πενταμελές διοικητικό συμβούλιο το οποίο εκλέγεται ανά τριετία.
+
+
+
+Εκπαίδευση και κατάρτιση:
+
+Το ΙΕΤ δραστηριοποιείται στην κατεύθυνση διοργάνωσης ειδικών σεμιναρίων, καλοκαιρινών σχολείων, συζητήσεων στρογγυλής τραπέζης, ημερίδων και συνεδρίων τα οποία απευθύνονται σε εκδότες, δημοσιογράφους και εργαζομένους στο χώρο των ΜΜΕ.
+
+Συνεργάζεται επίσης με πανεπιστημιακά τμήματα για αντίστοιχες δράσεις, οι οποίες συμβάλλουν στην περαιτέρω εξειδίκευση φοιτητών σε προπτυχιακό και μεταπτυχιακό επίπεδο.
+
+Η συμμετοχή στις παραπάνω δραστηριότητες συνοδεύεται από την χορήγηση άτυπης βεβαίωσης παρακολούθησης των διαφόρων επιμορφωτικών προγραμμάτων.
+
+Οι διδάσκοντες και οι εισηγητές είναι αναγνωρισμένοι επιστήμονες και επαγγελματίες από την Ελλάδα και το εξωτερικό οι οποίοι έχουν διακριθεί για το υψηλό ακαδημαϊκό και επαγγελματικό τους έργο.
+
+
+
+Εφαρμοσμένη Έρευνα και Μελέτες:
+
+Ο στόχος αυτός αποτελεί μία μεσοπρόθεσμη στρατηγική με σκοπό την συμβολή του ΙΕΤ στην συνολικότερη έρευνα και μελέτη του ημερήσιου επαρχιακού τύπου, της εφαρμογής των νέων τεχνολογιών, της μελέτης των αλλαγών στο δημοσιογραφικό επάγγελμα κλπ.
+
+Οι συγκριτικές έρευνες μεταξύ διαφορετικών χωρών και τα διακρατικά κοινά σχέδια έρευνας είναι ένας ακόμη στόχος του Ινστιτούτο Επαρχιακού Τύπου.
+
+Για το λόγο αυτό στις άμεσες προτεραιότητες του ΙΕΤ είναι και η ανάπτυξη ενός ευρωπαϊκού δικτύου συνεργαζόμενων φορέων οι οποίοι θα είναι σε θέση να συμβάλλουν στο τομέα της έρευνας και της μελέτης.
+
+
+
+Διοργάνωση Εκδηλώσεων:
+
+Ένας ακόμη στόχος του ΙΕΤ είναι να συμβάλλει και στην πραγματοποίηση άλλων εκδηλώσεων, οι οποίες οργανώνονται είτε από φορείς της τοπικής κοινωνίας είτε από πανεπιστημιακά ιδρύματα της ημεδαπής και αλλοδαπής, με γνώμονα πάντα την εξυπηρέτηση των αναγκών για επιμόρφωση και ανταλλαγή απόψεων. Ως εκ τούτου το ΙΕΤ μπορεί, κάτω από συγκεκριμένες συνθήκες, να παραχωρήσει τις εγκαταστάσεις του, εφόσον οι εκδηλώσεις αυτές δεν είναι κερδοσκοπικές και έχουν σκοπό την ανάπτυξη των τοπικών κοινωνιών, την επιμόρφωση και την έρευνα.
+
+
+
+
+
+
+
+Εγκαταστάσεις:
+
+Το ΙΕΤ διαθέτει σύγχρονες εγκαταστάσεις συνολικού εμβαδού 1.500 τ.μ., οι οποίες αποτελούνται από χώρους φιλοξενίας 18 δίκλινων δωματίων, αίθουσα συνεδριάσεων χωρητικότητας 180 ατόμων, αίθουσα συζητήσεων στρογγυλής τραπέζης, αίθουσα υπολογιστών, χώρο βιβλιοθήκης και εκθέσεων και εστιατόριο. Οι εγκαταστάσεις αυτές ανακαινίστηκαν το 2009 και είναι ιδιαιτέρως υψηλών προδιαγραφών.
+
+Στο εστιατόριο/καφέ του ινστιτούτου εκτίθενται φωτογραφίες με δείγματα κρητικής χλωρίδας, δωρεά από Το Πάρκο Διάσωσης Χλωρίδας και Πανίδας, του Πολυτεχνείου Κρήτης.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"@gr  ;
+geo:lat "35.400444"^^xsd:double ;
+geo:long "24.150566"^^xsd:double ;
+.

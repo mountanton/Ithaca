@@ -1,0 +1,24 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Winery.csv> a void:Dataset ; 
+dc:creator "Δίκτυο Οινοποιών Κρήτης (winesofcrete.gr)" ; 
+homer:maintainer "Δίκτυο Οινοποιών Κρήτης (winesofcrete.gr)" ; 
+dc:created "2014-03-06" ; 
+dc:modified "2014-03-06" ; 
+dc:keyword "Περιβάλλον;Τουρισμός" ; 
+homer:resourceAbstract "Oινοποιεία Κρήτης" ; 
+dc:language "GR" ; 
+homer:locator <http://www.opencrete.gr/dataset/oinopoieia-krhths> ; 
+dc:title "Oινοποιεία Κρήτης" ; 
+homer:responsibleParty "Δίκτυο Οινοποιών Κρήτης (winesofcrete.gr) - info@winesofcrete.gr" ; 
+homer:topicCategory "Τουρισμός" ; 
+homer:topicCategory "Γεωργία" ; 
+ .

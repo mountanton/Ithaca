@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ithaca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="config.xsd" >
+    <virtuoso>
+        <host>http://localhost</host> 
+        <port>1111</port>
+        <username>dba</username>
+        <password>dba</password>
+        <graph>http://www.ics.forth.gr/isl/Homer</graph>
+    </virtuoso>
+ 
+    
+    <actions>
+        <downloadSources>yes</downloadSources> 
+        <downloadQuery>select &lt;http://dbpedia.org/resource/Knossos&gt; ?y ?z  where {&lt;http://dbpedia.org/resource/Knossos&gt; ?y ?z}</downloadQuery>
+		<downloadFileName>Knossos</downloadFileName>
+		<triplifyCSV>yes</triplifyCSV>
+		<triplifyXML>yes</triplifyXML>
+        <triplifyMetadataCSV>yes</triplifyMetadataCSV>
+		<triplifyMetadataXML>yes</triplifyMetadataXML>
+		<importFiles>yes</importFiles>
+		<CSVPropertiesFilePath>resources\properties\CSVproperties.txt</CSVPropertiesFilePath>
+		<CSVFilesURIFilePath>resources\properties\filesURI.txt</CSVFilesURIFilePath>
+		<MetadataFilePath>resources\properties\MapProperties.txt </MetadataFilePath>
+    </actions>
+   
+</ithaca>

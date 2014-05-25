@@ -1,0 +1,27 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Port.csv> a void:Dataset ; 
+dc:creator "Αποκεντρωμένη Διοίκηση Κρήτης - Διεύθυνση Πληροφορικής και Επικοινωνιών" ; 
+homer:maintainer "Αποκεντρωμένη Διοίκηση Κρήτης - Διεύθυνση Πληροφορικής και Επικοινωνιών" ; 
+homer:license "δεν ισχύουν όροι" ; 
+dc:created "2006-09-08" ; 
+homer:geoBoundingBox "23.48771;26.36613;34.83784;35.7497" ; 
+dc:keyword "Περιβάλλον;Τουρισμός" ; 
+homer:lineage "Επίσημα στοιχεία από το ευρωπαϊκό έργο Cultour-Med που συν-χρηματοδοτήθηκε από το πρόγραμμα Interreg IIIIB-Medocc για την Περιφέρεια Κρήτης (νυν Αποκεντρωμένη Διοίκηση Κρήτης). Το Cultour-Med είναι μια πρωτοβουλία για την ανάπτυξη και την από κοινού προώθηση των γνωστών και άγνωστων τουριστικών αξιοθέατων της Ευρώπης της Μεσογείου." ; 
+homer:resourceAbstract "Λιμάνια της Περιφέρειας Κρήτης" ; 
+dc:language "GR" ; 
+homer:locator <http://84.205.229.31/dataset/ports> ; 
+dc:title "Λιμάνια της Περιφέρειας Κρήτης" ; 
+homer:responsibleParty "Αποκεντρωμένη Διοίκηση Κρήτης - Διεύθυνση Πληροφορικής και Επικοινωνιών, ict@apdkritis.gov.gr" ; 
+homer:spatialResolution "250000" ; 
+homer:topicCategory "location" ; 
+homer:topicCategory "transportation" ; 
+ .

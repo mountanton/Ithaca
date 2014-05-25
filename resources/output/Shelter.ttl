@@ -1,0 +1,85 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml> a void:Dataset .
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter_Καλλέργη> a <http://www.homeropendata.com/ontologies/homer.owl#Shelter> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml>;
+rdfs:label "Καλλέργη"@gr ;
+rdfs:comment "Κατασκευάσθηκε το 1970. Από τον Απρίλιο μέχρι και τον Οκτώβριο είναι καθημερινά ανοικτό και διαθέτει οργανωμένη κουζίνα. Με την βοήθεια στην λειτουργία της αυστριακής αλπινιστικής σχολής του Ίνσμπρουκ οι περιπατητές μπορούν να διανυκτερεύσουν εδώ για να προωθηθούν έπειτα στον κύριο όγκο των Λευκών Ορέων. 
+
+
+
+Το μονοπάτι για το καταφύγιο ξεκινάει από το Ξυλόσκαλο, μπροστά από την είσοδο του φαραγγιού, και ανηφορίζει προς τα βορειοανατολικά, όπου 20 λεπτά αργότερα, συναντά ανηφορικό χωματόδρομο, ο οποίος οδηγεί, μετά από πορεία 45 περίπου λεπτών, στον κούμο μπροστά από το καταφύγιο με μοναδική θέα στις απέναντι κορυφές και στο οροπέδιο. 
+
+
+
+Μπροστά από το καταφύγιο ο επισκέπτης απολαμβάνει και αντιλαμβάνεται παράλληλα με δέος τον όγκο του ορεινού συγκροτήματος. Νότια οι πλαγιές της Σαμαριάς, άγριες και πυκνόφυτες, φτάνουν εκεί που το μάτι συναντά το απέραντο γαλάζιο του Λιβυκού Πελάγους. Δυτικά οι κορυφές του Βολακιά και του Γκιγκίλου εντυπωσιάζουν με την άγρια ομορφιά του στιλπνού βράχου. Νοτιοανατολικά, οι κορυφές των Παχνών, πιο πάνω η Μελινταού και η Μαύρη και στο βορρά μια άποψη του Κρητικού Πελάγους συμπυκνώνουν την ουσία του τόπου."@gr  ;
+geo:lat "35.3399"^^xsd:double ;
+geo:long "23.9153"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter_Σβουριχτή_-_Χουλιόπουλος> a <http://www.homeropendata.com/ontologies/homer.owl#Shelter> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml>;
+rdfs:label "Σβουριχτή - Χουλιόπουλος"@gr ;
+rdfs:comment "Κατασκευάσθηκε το 1994 από πέτρα και ξύλο με πρωτομάστορα τον πρόεδρο του συλλόγου Χρήστο Χουλιόπουλο και πήρε, τιμής ένεκεν, το όνομά του. Αξίζει να αναφερθεί ότι μεγάλος όγκος των υλικών μεταφέρθηκε με ελικόπτερο στην συγκεκριμένη τοποθεσία. 
+
+
+
+Από το καταφύγιο Καλλέργη, απαιτούνται 6-7 ώρες πεζοπορίας, ενώ από την περιοχή Ρουσιές, στο τέλος του χωματόδρομου από την Ανώπολη, περίπου 3 ώρες. Το καταφύγιο μπορεί να φιλοξενήσει 20 ορειβάτες."@gr  ;
+geo:lat "35.2193"^^xsd:double ;
+geo:long "24.0840"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter_Ταύρη> a <http://www.homeropendata.com/ontologies/homer.owl#Shelter> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml>;
+rdfs:label "Ταύρη"@gr ;
+rdfs:comment "Από το χωριό Ασκύφου μπορεί να ακολουθήσει κανείς αγροτικό δρόμο μήκους 7,7 χιλ. που οδηγεί εδώ, αλλά αξίζει να περπατήσει την μοναδική διαδρομή του μονοπατιού μέσα στο πυκνό δάσος από κυπαρίσσια που σκαρφαλώνει από το χωριό, προς το οροπέδιο της Ταύρης. Η διαδρομή με τα πόδια είναι περίπου 1,5-2 ώρες."@gr  ;
+geo:lat "35.2974"^^xsd:double ;
+geo:long "24.2044"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter_Βόλικας> a <http://www.homeropendata.com/ontologies/homer.owl#Shelter> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml>;
+rdfs:label "Βόλικας"@gr ;
+rdfs:comment "Το 2006 έγινε ανακαίνιση κι έτσι σήμερα μπορεί να φιλοξενήσει 30 άτομα. Από το χωριό η πορεία στο μονοπάτι διαρκεί περίπου 3 ώρες ενώ πρόσφατα έφθασε και αγροτικός δρόμος από το χωριό Μαδαρό, ο οποίος φθάνει μέχρι την απόσταση 10 λεπτών από το καταφύγιο."@gr  ;
+geo:lat "35.4192"^^xsd:double ;
+geo:long "24.0680"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter_Σαμάρι_Ψηλορείτη> a <http://www.homeropendata.com/ontologies/homer.owl#Shelter> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml>;
+rdfs:label "Σαμάρι Ψηλορείτη"@gr ;
+rdfs:comment "Διάρκεια Διαδρομής: 2 Ώρες
+
+
+
+Χωρητικότητα: 20
+
+
+
+Απόσταση Διαδρομής: 1417 km
+
+
+
+Τηλέφωνο: (+30)2894031331"@gr  ;
+geo:lat "35.1565"^^xsd:double ;
+geo:long "24.8903"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Shelter_Πρίνος_Ψηλορείτη> a <http://www.homeropendata.com/ontologies/homer.owl#Shelter> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Shelter.xml>;
+rdfs:label "Πρίνος Ψηλορείτη"@gr ;
+rdfs:comment "Χωρητικότητα: 40
+
+
+
+Τηλέφωνο: (+30)2810227609
+
+
+
+Διάρκεια Διαδρομής: 2,30 Ώρες"@gr  ;
+geo:lat "35.19157"^^xsd:double ;
+geo:long "24.98720"^^xsd:double ;
+.

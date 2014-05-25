@@ -1,0 +1,113 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml> a void:Dataset .
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Αναρριχητικό_πεδίο_Πεζάς> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Αναρριχητικό πεδίο Πεζάς"@gr ;
+rdfs:comment "Ο βράχος Μίνωας είναι σε απόσταση 2,5 χιλ. και οι βράχοι Τάλως και Ιστρώνας σε απόσταση 3χιλ. Οι βράχοι έχουν δυνατότητα πρόσβασης με αυτοκίνητο και η απόσταση από το αυτοκίνητο μέχρι την βάση του κάθε βράχου είναι περίπου 5 λεπτά περπάτημα.
+
+ΤΟ ΠΕΔΙΟ
+
+Το αναρριχητικό πεδίο της Πέζας αποτελείται από 4 βράχους: Τους Μίνωα, Τάλω, Ιστρώνα και Πάνα. Βρίσκεται ανατολικά 12 χιλ. από τον Άγιο Νικόλαο σε υψόμετρο 300μ. Πρόκειται για ένα σημαντικό πεδίο για την αθλητική αναρρίχηση στην Κρήτη. Ο προσανατολισμός των τριών (Μίνωα, Τάλου καιamp; Ίστρωνα) δίνει τη δυνατότητα στον αναρριχητή να σκαρφαλώνει καθκαιrsquo;όλη τη διάρκεια της ημέρας και όλο τον χρόνο. Το ανάπτυγμα των διαδρομών του κυμαίνεται από 14 έως 30μ, και προτείνεται ένα σκοινί 60-70μ. και 16 σετάκια. Το πέτρωμα είναι συμπαγής ασβεστόλιθος πολύ καλής ποιότητας. 
+
+
+
+Η δημιουργία του πεδίου βρίσκεται ακόμα σε εξέλιξη, ωστόσο υπάρχουν διαδρομές που θα ικανοποιήσουν αναρριχητές όλων των επιπέδων. Όλες οι διαδρομές είναι spor χαρακτήρα εξοπλισμένες με inox πλακέτες και βύσματα. Στον βράχο Τάλως υπάρχει η σπηλιά του Διόνυσου με διαδρομές δυσκολίας 8a, 8b+. Αυτό που κάνει το πεδίο ιδιαίτερο και μοναδικό είναι η πανοραμική θέα προς τον κόλπο του Μιραμπέλου και στις κορφές του Λασιθίου, η πανέμορφη φύση που το περιβάλει και το ότι δίνει τη δυνατότητα στους λάτρεις της αναρρίχησης για σκαρφάλωμα όλη την ημέρα αφού στους βράχους υπάρχει πάντα σκιά.
+
+"@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Lasithi> ;
+geo:lat "35.1165"^^xsd:double ;
+geo:long "25.7247"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Φαράγγι_Χα> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Φαράγγι Χα"@gr ;
+rdfs:comment "Το φαράγγι ξεκινάει από την καρδιά της Θρυπτής  και καταλήγει στην πεδιάδα της Ιεράπετρας, δίπλα στο γραφικό χωριό Μοναστηράκι.
+
+
+
+Μετά την Παχιά Άμμο κατευθυνόμαστε προς Ιεράπετρα και λίγα χιλιόμετρα αργότερα, μπαίνουμε στο Κάτω Χωριό και κατευθυνόμαστε αριστερά προς το οροπέδιο της Θρυπτής. Μετά από 10χιλ., πριν φτάσουμε στην Θρυπτή, κατευθυνόμαστε αριστερά προς το εκκλησάκι της Αγίας Άννας.
+
+
+
+Από αυτό το σημείο ξεκινάει ένα μικρό μονοπάτι που οδηγεί στο πιο προσβάσιμο σημείο του φαραγγιού.Αν θέλουμε να επισκεφτούμε την έξοδο του φαραγγιού κατευθυνόμαστε στο χωριό Μοναστηράκι και από εκεί ακολουθούμε τις ταμπέλες.
+
+
+
+Για να διασχίσει κανείς το φαράγγι απαιτούνται περισσότερες από 4 ώρες συνεχούς κίνησης παρόλο που το συνολικό μήκος δεν ξεπερνάει τα 1800μ. Την αργοπορία προκαλούν οι 27 καταρράκτες 8 έως 36μ. που πρέπει κανείς να περάσει.Οι συνθήκες που επικρατούν στο εσωτερικό απαιτούν ειδική εκπαίδευση και εξοπλισμό (χρειάζονται σχοινιά, στολή neopren, υλικά κατάβασης κλπ).
+
+
+
+Για να κατανοήσει κάποιος πώς είναι το εσωτερικό του φαραγγιού, πρέπει να το σκεφτεί σαν μία μεγάλη σκάλα. Περπατάς λίγο, κατεβαίνεις με σκοινί, κλπ. Σε αρκετές περιπτώσεις, αναγκάζεσαι να κολυμπήσεις, διότι υπάρχουν αρκετές λιμνούλες, ειδικότερα την περίοδο από τον Ιανουάριο μέχρι και τον Μάιο. Αν είσαι τυχερός και έχει αρκετά νερά, σε πολλά από τα ραπέλ, τρέχουν καταρράκτες με καθαρό νερό. Έτσι η κατάβαση γίνεται πολύ διασκεδαστική.
+
+Το φαράγγι είναι σήμερα ασφαλισμένο με τα πιο σύγχρονα και αξιόπιστα υλικά (ανοξείδωτα βίσματα και ρελέ) που έχουν  ελεγχθεί το 2012.Η διάσχιση απαιτεί  εκπαιδευμένους  κανιόνερς.
+
+
+
+Για τους κανιόνερς αποτελεί διασκέδαση γιατί υπάρχουν πολλές  τσουλήθρες και  δυνατότητα να κάνουν βουτιές στις λιμνούλες. Προτεινόμενοι μήνες για τη διάσχιση είναι από Ιανουάριο μέχρι Μάιο. Αυτή την περίοδο τρέχουν οι καταρράκτες και σχηματίζονται περισσότερες από 10 λιμνούλες με καθαρά νερά."@gr  ;
+<http://www.homeropendata.com/ontologies/homer.owl#prefecture> <http://www.homeropendata.com/ontologies/homer.owl#Lasithi> ;
+geo:lat "35.0849"^^xsd:double ;
+geo:long "25.8345"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Καλαθάς> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Καλαθάς"@gr ;
+geo:lat "35.5514"^^xsd:double ;
+geo:long "24.0840"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Σταυρός_Ακρωτήρι> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Σταυρός Ακρωτήρι"@gr ;
+geo:lat "35.5905"^^xsd:double ;
+geo:long "24.0949"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Γκίγκιλος> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Γκίγκιλος"@gr ;
+geo:lat "35.3468"^^xsd:double ;
+geo:long "23.902"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Θέρισσος> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Θέρισσος"@gr ;
+geo:lat "35.4056"^^xsd:double ;
+geo:long "23.9835"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Παλιόκαστρο> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Παλιόκαστρο"@gr ;
+geo:lat "35.3440"^^xsd:double ;
+geo:long "24.2964"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Κοψιάς> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Κοψιάς"@gr ;
+geo:lat "35.3310"^^xsd:double ;
+geo:long "25.2574"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Αγιοφάραγγο> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Αγιοφάραγγο"@gr ;
+geo:lat "34.9864"^^xsd:double ;
+geo:long "24.803"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Καπετανιανά> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Καπετανιανά"@gr ;
+geo:lat "34.96498"^^xsd:double ;
+geo:long "25.04192"^^xsd:double ;
+.
+<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route_Δίκτη> a <http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route> ;
+ void:inDataset<http://www.homeropendata.com/ontologies/homer.owl#Rock_Climbing_Route.xml>;
+rdfs:label "Δίκτη"@gr ;
+geo:lat "35.1770"^^xsd:double ;
+geo:long "25.4797"^^xsd:double ;
+.

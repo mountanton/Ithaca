@@ -1,0 +1,91 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv>    a   void:Dataset .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΣΠΗΛΑΙΟ_ΕΙΛΕΙΘΥΙΑΣ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "64" ;
+homer:x_coord  "609421" ;
+homer:y_coord  "3909420" ;
+homer:area  "ΣΠΗΛΑΙΟ ΕΙΛΕΙΘΥΙΑΣ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΓΟΥΒΩΝ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΙΕΡΟ_ΔΙΟΣ_ΘΕΝΑΤΑ_ΑΜΝΙΣΣΟΥ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "65" ;
+homer:x_coord  "609419" ;
+homer:y_coord  "3910270" ;
+homer:area  "ΑΜΝΙΣΟΣ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΓΟΥΒΩΝ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΙΕΡΟ_ΤΗΣ_ΑΡΤΕΜΗΣ-ΑΓΙΑ_ΓΑΛΗΝΗ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "75" ;
+homer:x_coord  "562401" ;
+homer:y_coord  "3883710" ;
+homer:area  "ΑΓΙΑ ΓΑΛΗΝΗ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Rethymno ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΛΑΜΠΗΣ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΝΑΟΣ_ΑΣΚΛΗΠΕΙΟΥ_ΚΑΙ_ΥΓΕΙΑΣ_ΛΙΣΣΟΥ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "80" ;
+homer:x_coord  "480594" ;
+homer:y_coord  "3899760" ;
+homer:area  "ΛΙΣΣΟΣ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Chania ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΑΝΑΤΟΛΙΚΟΥ_ΣΕΛΙΝΟΥ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΝΑΟΣ_ΠΥΘΙΟΥ_ΑΠΟΛΛΩΝΑ-ΓΟΡΤΥΝΑ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "154" ;
+homer:x_coord  "586574" ;
+homer:y_coord  "3879700" ;
+homer:area  "ΓΟΡΤΥΣ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΓΟΡΤΥΝΑΣ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΙΕΡΟ_ΤΟΥ_ΕΡΜΗ_ΚΑΙ_ΤΗΣ_ΑΦΡΟΔΙΤΗΣ_ΚΑΤΩ_ΣΥΜΗΣ_ΒΙΑΝΝΟΥ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "160" ;
+homer:x_coord  "635341" ;
+homer:y_coord  "3879660" ;
+homer:area  "ΣΥΜΗ ΒΙΑΝΝΟΥ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΒΙΑΝΝΟΥ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΚΛΑΣΙΚΟ_ΙΕΡΟ_ΗΡΑΚΛΗ_ΚΑΙ_ΕΥΡΥΣΘΕΑ-ΚΝΩΣΣΟΣ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "175" ;
+homer:x_coord  "605175" ;
+homer:y_coord  "3906650" ;
+homer:area  "ΕΛΛΗΝΙΚΑ ΚΝΩΣΣΟΥ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΗΡΑΚΛΕΙΟΥ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery_ΕΛΛΗΝΙΣΤΙΚΟ_ΙΕΡΟ_ΓΛΑΥΚΟΥ_ΚΝΩΣΣΟΥ> a homer:Ancient_Monastery ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Monastery.csv> ;
+homer:code  "179" ;
+homer:x_coord  "605237" ;
+homer:y_coord  "3906350" ;
+homer:area  "ΚΕΦΑΛΑ ΚΝΩΣΣΟΥ" ;
+homer:kind  "Αρχαίος Ναός"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΗΡΑΚΛΕΙΟΥ> ;
+ .

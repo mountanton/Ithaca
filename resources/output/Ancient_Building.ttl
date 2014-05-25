@@ -1,0 +1,71 @@
+@prefix homer: <http://www.homeropendata.com/ontologies/homer.owl#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv>    a   void:Dataset .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building_ΑΡΧΑΙΟΛΟΓΙΚΟΣ_ΧΩΡΟΣ_ΜΑΛΙΩΝ> a homer:Ancient_Building ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv> ;
+homer:code  "63" ;
+homer:x_coord  "635917" ;
+homer:y_coord  "3906930" ;
+homer:area  "ΑΓΙΑ ΒΑΡΒΑΡΑ" ;
+homer:kind  "Ανάκτορο"@gr ;
+homer:prefecture homer:Lasithi ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΝΕΑΠΟΛΗΣ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building_ΑΝΑΚΤΟΡΟ_ΑΡΧΑΙΟΛΟΓΙΚΟΣ_ΧΩΡΟΣ_ΖΑΚΡΟΥ> a homer:Ancient_Building ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv> ;
+homer:code  "69" ;
+homer:x_coord  "705869" ;
+homer:y_coord  "3885920" ;
+homer:area  "ΚΑΤΩ ΖΑΚΡΟΣ" ;
+homer:kind  "Ανάκτορο"@gr ;
+homer:prefecture homer:Lasithi ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΙΤΑΝΟΥ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building_ΑΝΑΚΤΟΡΟ_ΑΡΧΑΙΟΛΟΓΙΚΟΥ_ΧΩΡΟΥ_ΜΑΛΙΩΝ> a homer:Ancient_Building ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv> ;
+homer:code  "90" ;
+homer:x_coord  "635580" ;
+homer:y_coord  "3906060" ;
+homer:area  "ΜΑΛΙΑ" ;
+homer:kind  "Ανάκτορο"@gr ;
+homer:prefecture homer:Lasithi ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΝΕΑΠΟΛΗΣ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building_ΜΙΝΩΙΚΟΣ_ΟΙΚΙΣΜΟΣ_ΠΛΑΤΗΣ> a homer:Ancient_Building ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv> ;
+homer:code  "127" ;
+homer:x_coord  "631260" ;
+homer:y_coord  "3892740" ;
+homer:area  "ΚΑΤΩ ΚΕΦΑΛΙ ΠΛΑΤΗΣ" ;
+homer:kind  "Ανάκτορο"@gr ;
+homer:prefecture homer:Lasithi ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΟΡΟΠΕΔΙΟΥ_ΛΑΣΙΘΙΟΥ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building_ΑΝΑΚΤΟΡΟ_ΚΝΩΣΣΟΥ> a homer:Ancient_Building ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv> ;
+homer:code  "177" ;
+homer:x_coord  "605206" ;
+homer:y_coord  "3906590" ;
+homer:area  "ΕΛΛΗΝΙΚΑ ΚΝΩΣΣΟΥ" ;
+homer:kind  "Ανάκτορο"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΗΡΑΚΛΕΙΟΥ> ;
+ .
+<http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building_ΑΡΧΑΙΟΛΟΓΙΚΟΣ_ΧΩΡΟΣ_ΦΑΙΣΤΟΥ_:_ΑΝΑΚΤΟΡΟ> a homer:Ancient_Building ;
+void:inDataset <http://www.homeropendata.com/ontologies/homer.owl#Ancient_Building.csv> ;
+homer:code  "284" ;
+homer:x_coord  "573953.47" ;
+homer:y_coord  "3878808.01" ;
+homer:area  "ΦΑΙΣΤΟΣ" ;
+homer:kind  "Ανάκτορο"@gr ;
+homer:prefecture homer:Herakleion ;
+homer:municipality <http://www.homeropendata.com/ontologies/homer.owl#ΤΥΜΠΑΚΙΟΥ> ;
+ .
